@@ -1,0 +1,45 @@
+# Site settings
+title: Eddie Chiang
+name: Eddie Chiang
+
+# User specific content
+# Links that will appear in the navbar
+primarylinks:
+  - title: GitHub
+    url: https://github.com/eddie-chiang
+  - title: Linked In
+    url: https://linkedin.com/in/eddie-chiang
+
+# Any buzzword skills you want to include
+skills:
+  - Analysis
+  - Solution Design
+  - Solution Development
+
+# Work experience is required
+roles:
+  - title: Solutions Architect
+    start: 2017
+    end: Ongoing
+    employer: Fraedom
+    description: Provide strategic direction and tactical support to the delivery teams for our Card Management solution.
+
+# Education is required
+education:
+  - level: Master of Engineering
+    data: In Progress
+    subject: Software
+    school: The University of Auckland
+
+  - level: Bachelor of Science (B.Sc.)
+    date: 2007
+    subject: Software
+    school: The University of Auckland
+
+# Stackoverflow flair is optional
+stackoverflow:
+   profileurl: https://stackoverflow.com/users/192197/eddiecjc
+   flairimageurl: https://stackexchange.com/users/flair/65260.png
+
+# An additional info freetext section is optional at the bottom of the page - can be text or HTML
+additionalinfo: 
