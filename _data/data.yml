@@ -44,12 +44,12 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Multi-skilled software development professional offering broad experience leveraging
+      software engineering methodologies, attuned analytical skills, broad understanding of
+      UML, databases and system integrations, to translate complex challenges and develop
+      highly effective and creative solutions. An exceptional problem-solver with consistently
+      proven ability to cope under pressure, also highly organised with strong capacity to
+      prioritise workload and steer project completion within established deadlines. 
 education:
     - degree: ME in Software
       university: The University of Auckland
