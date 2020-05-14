@@ -65,8 +65,14 @@ experiences:
       Provide strategic direction and tactical support to five delivery teams for our Card Management solution, including documentation and prototyping.
       Successfully designed and delivered over five projects, including an innovative Spend Control solution.
       Improved communication effectiveness between architects with stakeholders.
-  - role: Implementation Architect < Project Technical Lead and Team Lead < Software Developer 
-    time: Feb 2012 - Mar 2017
+  - role: Implementation Architect
+    time: Aug 2015 - Mar 2017
+  - role: Project Technical Lead and Team Lead
+    time: Oct 2013 - Jul 2015
+  - role: Senior Software Developer
+    time: Apr 2013 - Sep 2013
+  - role: Software Developer 
+    time: Feb 2012 - Mar 2013
     company: Fiserv, Auckland NZ
     details: |
       SME for alert processing, integration with push notification, SMS, WCF and DB.
