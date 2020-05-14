@@ -3,95 +3,103 @@
 #
 
 sidebar:
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: Eddie Chiang
-    tagline: Solutions Architect
-    avatar: Eddie Chiang.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: Eddie Chiang
+  tagline: Solutions Architect
+  avatar: Eddie Chiang.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: eddiecjc@gmail.com
-    phone: +64 21 806093
-    website: 
-    linkedin: eddie-chiang
-    github: eddie-chiang
-    gitlab:
-    bitbucket:
-    twitter: 
-    stack-overflow: 192197/eddiecjc # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+  # Sidebar links
+  email: eddiecjc@gmail.com
+  phone: +64 21 806093
+  website: 
+  linkedin: eddie-chiang
+  github: eddie-chiang
+  gitlab:
+  bitbucket:
+  twitter: 
+  stack-overflow: 192197/eddiecjc # Number/Username, e.g. 123456/alandoe
+  codewars:
+  goodreads: # Number-Username, e.g. 123456-alandoe
 
-    languages:
-      - idiom: English
-        level: Professional
+  languages:
+    - idiom: English
+      level: Professional
 
-      - idiom: Chinese
-        level: Native
+    - idiom: Chinese
+      level: Native
 
-    interests:
-      - item: Snowboarding
-        link:
+  interests:
+    - item: Snowboarding
+      link:
 
-      - item: Scuba Diving
-        link:
-      
-      - item: Basketballing
-        link:
+    - item: Scuba Diving
+      link:
+    
+    - item: Basketballing
+      link:
 
 career-profile:
-    title: Career Profile
-    summary: |
-      Multi-skilled software development professional offering broad experience leveraging
-      software engineering methodologies, attuned analytical skills, broad understanding of
-      UML, databases and system integrations, to translate complex challenges and develop
-      highly effective and creative solutions. An exceptional problem-solver with consistently
-      proven ability to cope under pressure, also highly organised with strong capacity to
-      prioritise workload and steer project completion within established deadlines. 
+  title: Career Profile
+  summary: |
+    Multi-skilled software development professional offering broad experience leveraging software engineering methodologies, attuned analytical skills, broad understanding of UML, databases and system integrations, to translate complex challenges and develop highly effective and creative solutions. 
+    An exceptional problem-solver with consistently proven ability to cope under pressure, also highly organised with strong capacity to prioritise workload and steer project completion within established deadlines. 
+
 education:
-    - degree: ME in Software
-      university: The University of Auckland
-      time: 2018 - Present
-      details:
-    - degree: BE in Software
-      university: The University of Auckland
-      time: 2004 - 2007
-      details:
+  - degree: ME in Software
+    university: The University of Auckland
+    time: 2018 - Present
+    details: >
+      Research on code comprehension challenges developers are facing to develop a deeper understanding, using mixed-method including interviews with developers and analysis of historical communication data using machine learning and NLP.>
+  - degree: BE in Software
+    university: The University of Auckland
+    time: 2004 - 2007
+    details:
 experiences:
-    - role: Solutions Architect
-      time: 2017 - Present
-      company: Fraedom, Auckland NZ
-      details:
-    
-# projects:
-#     title: Projects
-#     intro: >
-#       You can list your side projects or open source libraries in this
-#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-#     assignments:
-#       - title: Velocity
-#         link: "#hook"
-#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
+  - role: Solutions Architect
+    time: Apr 2017 - Present
+    company: Fraedom, Auckland NZ
+    details: |
+      Provide strategic direction and tactical support to five delivery teams for our Card Management solution, including documentation and prototyping.
+      Successfully designed and delivered over five projects, including an innovative Spend Control solution.
+      Improved communication effectiveness between architects with stakeholders.
+  - role: Implementation Architect < Project Technical Lead and Team Lead < Software Developer 
+    time: Feb 2012 - Mar 2017
+    company: Fiserv, Auckland NZ
+    details: |
+      SME for alert processing, integration with push notification, SMS, WCF and DB.
+      Led and oversaw projects launching six novel new features added to the product spanning over 2000 hours of dev effort.
+      Was formally recognized by peers and managers with over 25 specific recommendations related to my projects.
+      Received Star Player Award from ANZ for the valued contributions to the success of the Pacific ANZ goMoney project.
+      Received Most Valuable contributor award across 250 associates.
+  - role: Technical Team Lead < Software Developer 
+    time: Dec 2007 - Jan 2012
+    company: ProjectPartner.com, Auckland NZ
+    details: |
+      Successfully built the database and business logic layer for the company’s new project management SaaS product. 
+      Improved the database release process from 15 mins down to 0.5 mins.
+      Automated manual process into a web page to allow the creation of trial databases for prospects, which significantly reduced the turnaround time for sales activities.
 
-#       - title: DevStudio
-#         link: "#"
-#         tagline: "A responsive website template designed to help web developers/designers market their services."
-
-#       - title: Tempo
-#         link: "#"
-#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-#       - title: Atom
-#         link: "#"
-#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-#       - title: Delta
-#         link: "#"
-#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
+projects:
+  title: Volunteer Experience
+  intro: 
+  assignments:
+    - title: Technovation Challenge
+      link: https://technovationchallenge.org/
+      tagline: |
+        Mentoring a group of four girls, age between 10-12, to develop a mobile app called “Lift”, that tries to solve the problem with pre-teens that are affected by a range of emotional struggles. 
+        We shared our expertise and offered guidance in our specialist area, acted as role models and champions for our team, and inspired the next generation.
+    - title: Voluntari.ly
+      link: https://voluntari.ly/
+      tagline: |
+        <a href="https://voluntari.ly/hackfest">Hackfest</a> – 2 days hackfest to help designing and building the start of Voluntari.ly, an online app that connects school with corporate volunteers and short technology course content, and is supported by The Big Shift, an initiative lead by Datacom with the support of the Ministry of Education, Microsoft and many leading NZ corporates.
+    - title: Engineers Without Borders
+      link: http://www.ewb.org.nz/
+      tagline: |
+        <a href="https://github.com/OpenCityProject">Open City Project</a> – collaborate with Christchurch Council to create a database of free things to do in and around the city, that can be accessed via a website, app and a customized parking meter that will be located in Cathedral Square.
+  
 # publications:
 #     title: Publications
 #     intro: |
@@ -114,27 +122,18 @@ experiences:
 #         authors: Edgar T. Irons
 #         conference: "Comm. ACM 4 (1961), 51–55"
 
-# skills:
-#     title: Skills &amp; Proficiency
+skills:
+    title: Skills &amp; Proficiency
 
-#     toolset:
-#       - name: Python & Django
-#         level: 98%
-
-#       - name: Javascript & jQuery
-#         level: 98%
-
-#       - name: Angular
-#         level: 98%
-
-#       - name: HTML5 & CSS
-#         level: 95%
-
-#       - name: Ruby on Rails
-#         level: 85%
-
-#       - name: Sketch & Photoshop
-#         level: 60%
+    toolset:
+      - name: C#
+        level: 95%
+      - name: Vue.js
+        level: 50%
+      - name: SQL
+        level: 95%
+      - name: Python
+        level: 60%   
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
