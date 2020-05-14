@@ -1,45 +1,32 @@
-# Site settings
+#Update all the sections by editing the data.yml file inside _data folder.
+
+# Site Settings
 title: Eddie Chiang
-name: Eddie Chiang
+url: 'https://eddie-chiang.github.io'
+baseurl: '/online-cv' #change it according to your repository name
+description: A beautiful Jekyll theme for creating resume
+# Style will be applied only after restarting the build or serve. Just choose one of the options.
+theme_skin: blue # blue turquoise green berry orange ceramic
+chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
 
-# User specific content
-# Links that will appear in the navbar
-primarylinks:
-  - title: GitHub
-    url: https://github.com/eddie-chiang
-  - title: Linked In
-    url: https://linkedin.com/in/eddie-chiang
+# Tracker
+analytics: UA-9696121-4
 
-# Any buzzword skills you want to include
-skills:
-  - Analysis
-  - Solution Design
-  - Solution Development
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
-# Work experience is required
-roles:
-  - title: Solutions Architect
-    start: 2017
-    end: Ongoing
-    employer: Fraedom
-    description: Provide strategic direction and tactical support to the delivery teams for our Card Management solution.
+# Build settings
+compress-site: yes
 
-# Education is required
-education:
-  - level: Master of Engineering
-    data: In Progress
-    subject: Software
-    school: The University of Auckland
+encoding: "utf-8"
+compress_html: # - http://jch.penibelst.de/
+  clippings: all
+  ignore:
+    envs: development
 
-  - level: Bachelor of Science (B.Sc.)
-    date: 2007
-    subject: Software
-    school: The University of Auckland
-
-# Stackoverflow flair is optional
-stackoverflow:
-   profileurl: https://stackoverflow.com/users/192197/eddiecjc
-   flairimageurl: https://stackexchange.com/users/flair/65260.png
-
-# An additional info freetext section is optional at the bottom of the page - can be text or HTML
-additionalinfo: 
+# Development Settings
+port: 4000
+host: 0.0.0.0
+safe: false
